@@ -1,6 +1,6 @@
-const NewtodoForm = () => {
+const NewtodoForm = ({ classname = "" }: { classname?: string }) => {
   return (
-    <form className="flex items-center gap-4">
+    <form className={`flex items-center gap-4 ${classname}`}>
       <input
         type="text"
         autoFocus

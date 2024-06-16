@@ -3,9 +3,9 @@ import TodoList from "./TodoList";
 
 const App = () => {
   return (
-    <div className=" mx-auto max-w-96">
+    <div className=" mx-auto max-w-96 py-6">
       <TodoList />
-      <NewtodoForm />
+      <NewtodoForm classname="mt-6" />
     </div>
   );
 };
