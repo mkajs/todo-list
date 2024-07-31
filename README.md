@@ -11,9 +11,9 @@ Currently, three official plugins are available:
 
 # Temporary todo for app
 
-- [ ] Build layout of app with tailwind ( list of todos and the new todo form)
-- [ ] Render a list of todos based on a hard-coded array of todos
-- [ ] Add context-reducer data flow to app by enabling adding todos
+- [x] Build layout of app with tailwind ( list of todos and the new todo form)
+- [x] Render a list of todos based on a hard-coded array of todos
+- [x] Add context-reducer data flow to app by enabling adding todos
 - [ ] Add the filter feature of todos based on done status
 - [ ] Add the feature to edit todo text
 
